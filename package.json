@@ -1,0 +1,20 @@
+{
+  "name": "eza-auth-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Róbert Kovalčuk",
+  "license": "ISC",
+  "dependencies": {
+    "@chaosinsight/portalclient": "3.11.2",
+    "@fastforward-digitisation/ezarchive-portalclient": "^1.0.6",
+    "firebase": "^9.14.0",
+    "uuid": "^9.0.0"
+  }
+}
